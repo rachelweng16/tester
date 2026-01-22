@@ -1,5 +1,6 @@
 import './style.css'
 
+// another branch test
 // Simple router
 type Page = 'home' | 'about' | 'menu' | 'locations';
 let currentPage: Page = 'home';
