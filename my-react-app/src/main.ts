@@ -1,5 +1,6 @@
 import './style.css'
 
+// test 
 // Simple router
 type Page = 'home' | 'about' | 'menu' | 'locations';
 let currentPage: Page = 'home';
