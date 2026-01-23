@@ -7,7 +7,7 @@ let currentPage: Page = 'home';
 function navigate(page: Page) {
   currentPage = page;
   render();
-  
+  // blah
   // Update active nav links
   document.querySelectorAll('.nav-links a').forEach(link => {
     link.classList.remove('active');
